@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "rtlobs"
+version = "0.1.0"
+description = "RTL-SDR-based radio astronomy observation software using Python. Written by evanmayer"
+authors = ["anoduck <11767-anoduck@users.noreply.gitgud.io>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+matplotlib = "^3.8.4"
+numpy = "^1.26.4"
+pyrtlsdr = "^0.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
